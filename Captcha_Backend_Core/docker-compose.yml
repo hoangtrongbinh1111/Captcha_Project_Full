@@ -1,0 +1,15 @@
+version: '3.0'
+
+services:
+  captcha-core:
+    build: .
+    command: python3 app.py
+    volumes:
+      - .:/app
+      - /home/hduser/HoangTrongBinh/Captcha_Project/modelDir:/app/modelDir
+      - /home/hduser/HoangTrongBinh/Captcha_Project/datasetDir:/app/datasetDir
+      - /home/hduser/HoangTrongBinh/Captcha_Project/sampleDir:/app/sampleDir
+      - /home/hduser/HoangTrongBinh/Captcha_Project/inferDir:/app/inferDir
+      - /home/hduser/HoangTrongBinh/Captcha_Project/filterDir:/app/filterDir
+    ports:
+      - 5676:5676

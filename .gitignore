@@ -1,0 +1,17 @@
+vietocr/weights/
+train_hw/
+valid_hw/
+Captcha_Backend_Core/__pycache__
+Captcha_Backend_Core/datasetDir/*
+Captcha_Backend_Core/filterDir/*
+Captcha_Backend_Core/modelDir/*
+Captcha_Backend_Core/sampleDir/*
+datasetDir/*
+filterDir/*
+modelDir/*
+sampleDir/*
+Captcha_Backend_Gateway/node_modules
+Captcha_Backend_Gateway/datasetDir/*
+Captcha_Backend_Gateway/filterDir/*
+Captcha_Backend_Gateway/modelDir/*
+Captcha_Backend_Gateway/sampleDir/*
